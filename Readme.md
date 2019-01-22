@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Олег Гретченко](https://up.htmlacademy.ru/htmlcss/24/user/959417).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Бервяченок](https://htmlacademy.ru/profile/jackson).
 
 ---
 
