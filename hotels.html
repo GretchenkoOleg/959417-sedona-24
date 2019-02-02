@@ -1,135 +1,107 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="ru">
-<head>
-<meta charset="utf-8">
-<title> HTML Academy: Седона (Гостиницы) </title>
-</head>
+  <head>
+    <meta charset="utf-8">
+      <title> HTML Academy: Седона (Гостиницы) </title>
+  </head>
 
 <body>
-<header class="main-header">
-  <nav class="main-navigation">
-    <a class="main-header-logo" href="index.html">
-      <img src="img/logo.cvg" width="80" height="50" alt="Логотип Седона">
-    </a>
-      <ul class="site-navigation">
-        <li><a href="info.html">Информация</a></li>
-        <li><a href="photo&video.html">Фото и видео</a></li>
-        <li><a href="state-map.html">Карта Штата</a></li>
-        <li class="site-navigation-current"><a href="hotels.html">
-          Гостиницы</a></li>
-      </ul>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo.svg" width="80" height="50" alt="Логотип Седона">
+      </a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="photo-video.html">Фото и видео</a></li>
+          <li><a href="state-map.html">Карта Штата</a></li>
+          <li class="site-navigation-current"><a href="hotels.html">Гостиницы</a></li>
+        </ul>
     </nav>
   </header>
 
-  <main class="conteiner">
+<main class="conteiner">
+  <h1 class="visually-hidden">Гостиницы</h1>
+<section class="filters">
+  <h2 class="vasually-hidden">Фильтр товаров</h2>
+    <!-- Здесь будет форма -->
+</section>
 
-    <h1 class="visually-hidden">Гостиницы</h1>
+<section class="hotel-catalog">
+  <h2 class="visually-hidden">Список гостиниц</h2>
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <h3>
+          <a href="catalog-item.html">Amara resort & SPA</a>
+        </h3>
+        <p class="catalog-item-image">
+          <img src="hotel-1.svg" width="150" height="100" alt="Amara resort & SPA">
+        </p>
+        <span>Гостиница</span> <span>от 4000 Р.</span>
+        <p class="classification">
+          <img src="four-stars.svg" width="200" height="30" alt="Четыри звезды">
+        </p>
+        <p class="rating">Рейтинг:8,5</p>
+        <p>
+          <a class="button" href="#">Подробнее</a>
+          <a class="button" href="#">Забронировать</a>
+        </p>
+      </li>
+      <li class="catalog-item">
+        <h3>
+          <a href="catalog-item.html">Desert quail inn</a>
+        </h3>
+        <p class="catalog-item-image">
+          <img src="hotel-2.svg" width="150" height="100" alt="Desert quali inn">
+        </p>
+        <span>Мотель</span> <span>от 3000 Р.</span>
+        <p class="classification">
+          <img src="three-stars.svg" width="150" height="30" alt="Три звезды">
+        </p>
+        <p class="rating">Рейтинг:8,9</p>
+        <p>
+          <a class="button" href="#">Подробнее</a>
+          <a class="button" href="#">Забронировать</a>
+        </p>
+      </li>
+      <li class="catalog-item">
+        <h3>
+          <a href="catalog-item.html">Villas at poco diablo</a>
+        </h3>
+        <p class="catalog-item-image">
+          <img src="hotel-3.svg" width="150" height="100" alt="Villas at poco diablo">
+        </p>
+          <span>Апартаменты</span> <span>от 2000 Р.</span>
+        <p class="classification">
+          <img src="two-stars.svg" width="100" height="30" alt="Две звезды">
+        </p>
+        <p class="rating">Рейтинг:9,2</p>
+        <p>
+          <a class="button" href="#">Подробнее</a>
+          <a class="button" href="#">Забронировать</a>
+        </p>
+      </li>
+    </ul>
+</section>
+</main>
 
-    <section class="filtres">
-      <h2 class="vasually-hidden">Фильтр товаров</h2>
-      <!-- Здесь будет форма -->
-    </section>
-
-    <section class="hotel-catalog">
-      <h2 class="visually-hidden">Список гостиниц</h2>
-        <ul class="catalog-list">
-          <li class="catalog-item">
-            <h3>
-              <a href="catalog-item.html">Amara resort & SPA
-              </a>
-            </h3>
-          <p class="catalog-item-image">
-            <a href="catalog-item.html">
-              <img src="hotel-1.jpg" width="150" height="100"
-              alt="Amara resort & SPA">
-            </a>
-          </p>
-            Гостиница от 4000 Р.
-          <p class="classification">
-            <img src="four-stars.jpg" width="200" height="30"
-            alt="Четыри звезды">
-          </p>
-          <p class="rating">
-            Рейтинг:8,5
-          </p>
-          <p>
-            <a class="button" href="#">Подробнее</a>
-            <a class="button" href="#">Забронировать</a>
-          </p>
-        </li>
-          <li class="catalog-item">
-            <h3>
-              <a href="catalog-item.html">Desert quail inn
-              </a>
-            </h3>
-              <p class="catalog-item-image">
-                <a href="catalog-item.html">
-                  <img src="hotel-2.jpg" width="150" height="100"
-                  alt="Desert quali inn">
-                </a>
-              </p>
-              Мотель от 3000 Р.
-              <p class="classification">
-                <img src="three-stars.jpg" width="150" height="30"
-                alt="Три звезды">
-              </p>
-              <p class="rating">
-                Рейтинг:8,9
-              </p>
-              <p>
-              <a class="button" href="#">Подробнее</a>
-              <a class="button" href="#">Забронировать</a>
-              </p>
-          </li>
-          <li class="catalog-item">
-            <h3>
-              <a href="catalog-item.html">Villas at poco diablo
-              </a>
-            </h3>
-            <p class="catalog-item-image">
-              <a href="catalog-item.html">
-                <img src="hotel-3.jpg" width="150" height="100"
-                alt="Villas at poco diablo">
-              </a>
-            </p>
-            Апартаменты от 2000 Р.
-            <p class="classification">
-              <img src="two-stars.jpg" width="100" height="30"
-              alt="Две звезды">
-            </p>
-            <p class="rating">
-              Рейтинг:9,2
-            </p>
-            <p>
-            <a class="button" href="#">Подробнее</a>
-            <a class="button" href="#">Забронировать</a>
-            </p>
-          </li>
+<footer class="main-footer">
+  <h2 class="visually-hidden">Больше о нас</h2>
+    <p class="footer-more-about-us">
+      <b>#visitsedona</b>
+    </p>
+      <ul class="footer-social">
+        <li><a class="social-button"href="#">Твиттер</a></li>
+        <li><a class="social-button"href="#">Фейсбук</a></li>
+        <li><a class="social-button"href="#">Ютуб</a></li>
       </ul>
-    </section>
-  </main>
-
-      <footer class="main-footer">
-        <h2 class="visually-hidden">Больше о нас</h2>
-          <p class="footer-more-about-us">
-            <b>#visitsedona</b>
-          </p>
-        <h2 class="visually-hidden">Социальные сети</h2>
-          <div class="footer-social">
-            <a class="social-button"href="#">Твиттер</a>
-            <a class="social-button"href="#">Фейсбук</a>
-            <a class="social-button"href="#">Ютуб</a>
-          </div>
-
-        <h2 class="visually-hidden">Авторское право</h2>
-          <p class="footer-copyright">
-          <a class="button" href="https://htmlacademy.ru">
+        <p class="footer-copyright">
+          <a class="emblem" href="https://htmlacademy.ru">
             Website by
-          <img scr="img/LogoHTMLAcademy.jpg" width="50" height="70"
-           alt="Логотип HTML Academy">
-            <b>HTML Academy</b>
+            <img scr="img/LogoHTMLAcademy.svg" width="50" height="70" alt="Логотип HTML Academy">
+              <b>HTML Academy</b>
           </a>
         </p>
-      </footer>
-    </body>
-  </html>
+</footer>
+</body>
+</html>
