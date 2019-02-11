@@ -20,7 +20,7 @@
     </nav>
   </header>
 
-  <main class="container">
+  <main class="conteiner">
     <h1 class="visually-hidden">Sedona</h1>
   <section class="beginning">
     <a class="main-image-site">
@@ -80,31 +80,50 @@
     <b>Заинтересовались?</b>
       <p class="order-info">Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостинец в Седоне</p>
         <div class="search">Поиск гостиницы в Седоне</div>
-      <!-- Здесь будет форма -->
+        <br>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label for="arrival-date">Дата заезда:</label>
+           <input id="arrival-date" type="text" name="arrival" value="24 апреля 2017"><button type="button"><img src="img/calendar.svg" alt="Календарь"></button>
+      </p>
+      <p>
+        <label for="date-of-departure">Дата выезда:</label>
+          <input id="date-of-departure" type="text" name="departure" value="4 июля 2017"><button type="button"><img src="img/calendar.svg" alt="Календарь"></button>
+      </p>
+      <p>
+        <label for="adults">Взрослые:</label>
+          <button class="minus" type="button">-</button><input id="adults" type="text" name="quantity" value="2"><button class="plus" type="button">+</button>
+      </p>
+      <p>
+        <label for="children">Дети:</label>
+          <button class="minus" type="button">-</button><input id="children" type="text" name="quantity" value="0"><button class="plus" type="button">+</button>
+      </p>
+        <button type="submit">Найти</button>
+    </form>
   </section>
   </main>
 
   <footer class="main-footer">
     <h2 class="vasually-hidden">Больше о нас</h2>
       <p class="footer-more-about-us">
-        <b>#visitsedona</b>
+        #visitsedona
       </p>
         <ul class="footer-social">
           <li>
-            <a class="social-button" href="#">Твиттер</a>
+            <a class="social-button" href="#" aria-label="Седона в Твиттере">Твиттер</a>
               <img src="img/twitter.svg" width="46" height="48" alt="Логотип Twitter">
           </li>
           <li>
-            <a class="social-button" href="#">Фейсбук</a>
+            <a class="social-button" href="#" aria-label="Седона на Фейсбуке">Фейсбук</a>
               <img src="img/facebook.svg" width="46" height="48" alt="Логотип Facebook">
           </li>
           <li>
-            <a class="social-button" href="#">Ютуб</a>
+            <a class="social-button" href="#" aria-label="Седона в Ютубе">Ютуб</a>
               <img src="img/youtube.svg" width="46" height="48" alt="Логотип Youtube">
           </li>
         </ul>
           <p class="footer-copyright">
-            <a class="emblem" href="https://htmlacademy.ru">
+            <a class="emblem" href="https://htmlacademy.ru" aria-label="Переход на сайт разработчика">
               Website by
               <img src="img/Logo-html-academy.svg" width="115" height="41" alt="Логотип HTML Academy">
             </a>
