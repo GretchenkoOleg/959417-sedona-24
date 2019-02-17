@@ -163,17 +163,12 @@ button[type="submit"] {
 
 .catalog-item img {
   float: left;
-      margin: ;
-      width: ;
-      height: ;
 }
 
 .classification img {
   float: right;
   margin-top: -15px;
   margin-right: 15px;
-  width: ;
-  height: ;
 }
 
 .rating {
