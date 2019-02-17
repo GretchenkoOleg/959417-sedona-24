@@ -4,18 +4,16 @@ body {
 font-family: "PT Sans", Arial, sans-serif;
 font-size: 14px;
 line-height: 26px;
-font-weight: 700;
+font-weight: 400;
 color: #000000;
 text-transform: uppercase;
-
-background-color: #ffffff;
-background-image: url("../img/background-photo.jpg");
-background-position: top center;
-background-repeat: no-repeat;
 }
 
-.hotels-page {
-  background-color: #ffffff;
+.beginning {
+  background-color: #000000;
+  background-image: url("../img/background-photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -24,8 +22,6 @@ a {
 
 .main-navigation {
   color: #000000;
-
-  background-color: #ffffff;
 }
 
 .site-navigation {
@@ -34,15 +30,16 @@ a {
 
 .site-navigation a {
   color: #000000;
+  font-weight: 700;
 }
 
 .site-navigation a:hover {
   color: #81b3d2;
 }
 .site-navigation a:focus {
-  color: rgba(0, 0, 0, 0.3);
+  color: #81b3d2;
 }
-.site-navigation a:active {
+.site-navigation-current a:active {
   color: #766357;
 }
 
@@ -86,6 +83,7 @@ a {
   text-transform: uppercase;
   background-color: #766357;
   padding: 35px 141px;
+  display: inline-block;
 }
 
 .search-button a:hover {
@@ -107,6 +105,30 @@ a {
   border: 2px solid #f2f2f2;
 }
 
+button {
+  padding: 2px 5px;
+  border: none;
+  font:inherit;
+  background-color: #f2f2f2;
+}
+
+button[type="submit"] {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #81b3d2;
+  padding: 15px 191px;
+  display: inline-block;
+
+}
+.footer-more-about-us {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
 .footer-social {
   text-align: center;
 }
@@ -122,4 +144,71 @@ a {
 
 .footer-copyright {
   text-align: center;
+  color: #000000;
+  font-weight: 700;
+}
+.footer-copyright a:hover,
+.footer-copyright a:focus,
+.footer-copyright a:active {
+  color: #81b3d2;
+  }
+
+.catalog-list li {
+  list-style: none;
+}
+
+.catalog-list h3 a {
+  margin-right: 830px;
+}
+
+.catalog-item img {
+  float: left;
+      margin: ;
+      width: ;
+      height: ;
+}
+
+.classification img {
+  float: right;
+  margin-top: -15px;
+  margin-right: 15px;
+  width: ;
+  height: ;
+}
+
+.rating {
+
+  margin-left: 1130px;
+}
+
+.rating {
+  padding: 2px 2px;
+  border: none;
+  font:inherit;
+  width: 100px;
+  background-color: #f2f2f2;
+}
+
+.button-details {
+  padding: 5px 10px;
+  border: none;
+  font:inherit;
+  width: 100px;
+  color: #ffffff;
+  background-color: #81b3d2;
+  float: left;
+}
+
+.button-booking {
+  padding: 5px 10px;
+  border: none;
+  font:inherit;
+  width: 100px;
+  color: #ffffff;
+  background-color: #503e33;
+  float: left;
+}
+
+p span {
+  float:left;
 }
