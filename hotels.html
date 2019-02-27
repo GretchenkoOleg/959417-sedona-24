@@ -9,6 +9,7 @@
   </head>
 
 <body>
+<div class="container-principal">
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo" href="index.html">
@@ -17,16 +18,16 @@
         <ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
           <li><a href="photo-video.html">Фото и видео</a></li>
-          <li><a href="state-map.html">Карта Штата</a></li>
+          <li class="site-navigation-map"><a href="state-map.html">Карта Штата</a></li>
           <li class="site-navigation-current"><a href="hotels.html">Гостиницы</a></li>
         </ul>
     </nav>
   </header>
 
-  <main class="container">
+  <main class="container-hotels">
     <h1 class="visually-hidden">Гостиницы</h1>
     <section class="filters">
-      <h2 class="vasually-hidden">Фильтр товаров</h2>
+      <h2 class="visually-hidden">Фильтр товаров</h2>
         <!-- Здесь будет форма -->
     </section>
 
@@ -34,13 +35,20 @@
       <h2 class="visually-hidden">Список гостиниц</h2>
       <ul class="catalog-list">
         <li class="catalog-item">
-          <h3>
+          <img class="catalog-item-image" src="img/hotel-1.jpg" width="135" height="90" alt="Amara resort & SPA">
+          <div class="business-card">
+          <h3 class="name-hotel">
             <a href="catalog-item.html">Amara resort & SPA</a>
           </h3>
-          <img class="catalog-item-image" src="img/hotel-1.jpg" width="135" height="90" alt="Amara resort & SPA">
-          <p>
+          <p class="information">
             <span>Гостиница</span> <span>от 4000 Р.</span>
           </p>
+          <p class="catalog-buttons">
+            <a class="button-details" href="#">Подробнее</a>
+            <a class="button-booking" href="#">Забронировать</a>
+          </p>
+        </div>
+          <div class="catalog-rating">
           <p class="classification">
             <img src="img/star.svg" width="18" height="17" alt="Четыре звезды">
             <img src="img/star.svg" width="18" height="17" alt="">
@@ -48,69 +56,74 @@
             <img src="img/star.svg" width="18" height="17" alt="">
           </p>
           <p class="rating">Рейтинг:8,5</p>
-          <p>
+          </div>
+        </li>
+        <li class="catalog-item">
+          <img class="catalog-item-image" src="img/hotel-2.jpg" width="135" height="90" alt="Desert quali inn">
+          <div class="business-card">
+          <h3 class="name-hotel">
+            <a href="catalog-item.html">Desert quail inn</a>
+          </h3>
+          <p class="information">
+            <span>Мотель</span> <span>от 3000 Р.</span>
+          </p>
+          <p class="catalog-buttons">
             <a class="button-details" href="#">Подробнее</a>
             <a class="button-booking" href="#">Забронировать</a>
           </p>
-        </li>
-        <li class="catalog-item">
-          <h3>
-            <a href="catalog-item.html">Desert quail inn</a>
-          </h3>
-          <img class="catalog-item-image" src="img/hotel-2.jpg" width="135" height="90" alt="Desert quali inn">
-          <p>
-            <span>Мотель</span> <span>от 3000 Р.</span>
-          </p>
+        </div>
+          <div class="catalog-rating">
           <p class="classification">
             <img src="img/star.svg" width="18" height="17" alt="Три звезды">
             <img src="img/star.svg" width="18" height="17" alt="">
             <img src="img/star.svg" width="18" height="17" alt="">
           </p>
           <p class="rating">Рейтинг:8,9</p>
-          <p>
+          </div>
+        </li>
+        <li class="catalog-item">
+          <img class="catalog-item-image" src="img/hotel-3.jpg" width="135" height="90" alt="Villas at poco diablo">
+          <div class="business-card">
+          <h3 class="name-hotel">
+            <a href="catalog-item.html">Villas at poco diablo</a>
+          </h3>
+          <p class="information">
+            <span>Апартаменты</span> <span>от 2000 Р.</span>
+          </p>
+          <p class="catalog-buttons">
             <a class="button-details" href="#">Подробнее</a>
             <a class="button-booking" href="#">Забронировать</a>
           </p>
-        </li>
-        <li class="catalog-item">
-          <h3>
-            <a href="catalog-item.html">Villas at poco diablo</a>
-          </h3>
-          <img class="catalog-item-image" src="img/hotel-3.jpg" width="135" height="90" alt="Villas at poco diablo">
-          <p>
-            <span>Апартаменты</span> <span>от 2000 Р.</span>
-          </p>
+        </div>
+          <div class="catalog-rating">
           <p class="classification">
             <img src="img/star.svg" width="18" height="17" alt="Две звезды">
             <img src="img/star.svg" width="18" height="17" alt="">
           </p>
           <p class="rating">Рейтинг:9,2</p>
-          <p>
-            <a class="button-details" href="#">Подробнее</a>
-            <a class="button-booking" href="#">Забронировать</a>
-          </p>
+          </div>
         </li>
       </ul>
     </section>
   </main>
 
   <footer class="main-footer">
-    <h2 class="vasually-hidden">Больше о нас</h2>
+    <h2 class="visually-hidden">Больше о нас</h2>
     <p class="footer-more-about-us">#visitsedona</p>
     <ul class="footer-social">
       <li>
         <a class="social-button" href="#" aria-label="Седона в Твиттере"><div class="visually-hidden">Твиттер</div>
-          <img src="img/twitter.svg" width="46" height="48" alt="Логотип Twitter">
+          <img src="img/twitter.svg" width="20" height="10" alt="Логотип Twitter">
         </a>
       </li>
       <li>
         <a class="social-button" href="#" aria-label="Седона на Фейсбуке"><div class="visually-hidden">Фейсбук</div>
-          <img src="img/facebook.svg" width="46" height="48" alt="Логотип Facebook">
+          <img src="img/facebook.svg" width="20" height="10" alt="Логотип Facebook">
         </a>
       </li>
       <li>
         <a class="social-button" href="#" aria-label="Седона в Ютубе"><div class="visually-hidden">Ютуб</div>
-          <img src="img/youtube.svg" width="46" height="48" alt="Логотип Youtube">
+          <img src="img/youtube.svg" width="20" height="10" alt="Логотип Youtube">
         </a>
       </li>
     </ul>
@@ -120,5 +133,6 @@
       </a>
     </p>
   </footer>
+</div>
 </body>
 </html>
